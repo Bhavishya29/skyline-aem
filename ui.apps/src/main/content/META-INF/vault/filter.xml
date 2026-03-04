@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/skyline/clientlibs"/>
+    <filter root="/apps/skyline/components"/>
+    <filter root="/apps/skyline/i18n"/>
+</workspaceFilter>

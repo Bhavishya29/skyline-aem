@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/skyline" mode="merge"/>
+    <filter root="/content/skyline" mode="merge"/>
+    <filter root="/content/dam/skyline" mode="merge">
+        <exclude pattern="/content/dam/skyline(/.*)?"/>
+        <include pattern="/content/dam/skyline/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/skyline/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/skyline" mode="merge"/>
+</workspaceFilter>
